@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CansolveApi", "CansolveApi", "{561551F9-BE12-44D4-B550-ABD61148998C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CansolveApplication", "CansolveApplication\CansolveApplication.csproj", "{41D89848-9D27-4AB6-8ED7-2FEE6D9D5499}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41D89848-9D27-4AB6-8ED7-2FEE6D9D5499}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41D89848-9D27-4AB6-8ED7-2FEE6D9D5499}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41D89848-9D27-4AB6-8ED7-2FEE6D9D5499}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41D89848-9D27-4AB6-8ED7-2FEE6D9D5499}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{41D89848-9D27-4AB6-8ED7-2FEE6D9D5499} = {561551F9-BE12-44D4-B550-ABD61148998C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4434D196-BC1B-4B03-8CF5-CA6BCF41C034}
+	EndGlobalSection
+EndGlobal

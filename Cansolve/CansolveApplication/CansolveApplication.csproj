@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.OAuth" Version="2.2.0" />
+    <PackageReference Include="MongoDB.Bson" Version="2.22.0" />
+    <PackageReference Include="MongoDB.Driver" Version="2.22.0" />
+    <PackageReference Include="MongoDB.Driver.Core" Version="2.22.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Anurgenlib">
+      <HintPath>..\..\Anurgenlib\Anurgenlib\bin\Release\Anurgenlib.dll</HintPath>
+    </Reference>
+    <Reference Include="CansolveAnkurLib">
+      <HintPath>..\..\..\CansolveCalululation dll\CansolveAnkurLib\CansolveAnkurLib\bin\Release\CansolveAnkurLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
